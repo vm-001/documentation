@@ -3111,6 +3111,42 @@ menu:
           - TriggerTests
         unstable: []
         order: 8
+    - name: Edit an Mobile test
+      url: '#edit-an-mobile-test'
+      identifier: synthetics-edit-an-mobile-test
+      parent: synthetics
+      generated: true
+      params:
+        versions:
+          - v1
+        operationids:
+          - UpdateMobileTest
+        unstable: []
+        order: 3
+    - name: Get an Mobile test
+      url: '#get-an-mobile-test'
+      identifier: synthetics-get-an-mobile-test
+      parent: synthetics
+      generated: true
+      params:
+        versions:
+          - v1
+        operationids:
+          - GetMobileTest
+        unstable: []
+        order: 9
+    - name: Create a mobile test
+      url: '#create-a-mobile-test'
+      identifier: synthetics-create-a-mobile-test
+      parent: synthetics
+      generated: true
+      params:
+        versions:
+          - v1
+        operationids:
+          - CreateSyntheticsMobileTest
+        unstable: []
+        order: 2
     - name: Delete tests
       url: '#delete-tests'
       identifier: synthetics-delete-tests

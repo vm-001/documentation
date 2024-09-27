@@ -6155,6 +6155,94 @@ menu:
         unstable:
           - v2
         order: 1
+    - name: Microsoft Teams Integration
+      url: /api/latest/microsoft-teams-integration/
+      identifier: microsoft-teams-integration
+      generated: true
+    - name: Get channel information by name
+      url: '#get-channel-information-by-name'
+      identifier: microsoft-teams-integration-get-channel-information-by-name
+      parent: microsoft-teams-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - GetChannelByName
+        unstable: []
+        order: 1
+    - name: Update api handle
+      url: '#update-api-handle'
+      identifier: microsoft-teams-integration-update-api-handle
+      parent: microsoft-teams-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - UpdateApiHandle
+        unstable: []
+        order: 1
+    - name: Get api handle information
+      url: '#get-api-handle-information'
+      identifier: microsoft-teams-integration-get-api-handle-information
+      parent: microsoft-teams-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - GetApiHandle
+        unstable: []
+        order: 1
+    - name: Delete api handle
+      url: '#delete-api-handle'
+      identifier: microsoft-teams-integration-delete-api-handle
+      parent: microsoft-teams-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - DeleteApiHandle
+        unstable: []
+        order: 1
+    - name: Get api handle information by name
+      url: '#get-api-handle-information-by-name'
+      identifier: microsoft-teams-integration-get-api-handle-information-by-name
+      parent: microsoft-teams-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - GetApiHandleByName
+        unstable: []
+        order: 1
+    - name: Create api handle
+      url: '#create-api-handle'
+      identifier: microsoft-teams-integration-create-api-handle
+      parent: microsoft-teams-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - CreateApiHandle
+        unstable: []
+        order: 1
+    - name: Get all api handles
+      url: '#get-all-api-handles'
+      identifier: microsoft-teams-integration-get-all-api-handles
+      parent: microsoft-teams-integration
+      generated: true
+      params:
+        versions:
+          - v2
+        operationids:
+          - ListApiHandles
+        unstable: []
+        order: 1
     - name: Network Device Monitoring
       url: /api/latest/network-device-monitoring/
       identifier: network-device-monitoring

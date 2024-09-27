@@ -652,6 +652,20 @@
       "description": "Update a tag configuration returns \"OK\" response"
     }
   ],
+  "CreateApiHandle": [
+    {
+      "group": "microsoft_teams_integration",
+      "suffix": "",
+      "description": "Create api handle returns \"CREATED\" response"
+    }
+  ],
+  "UpdateApiHandle": [
+    {
+      "group": "microsoft_teams_integration",
+      "suffix": "",
+      "description": "Update api handle returns \"OK\" response"
+    }
+  ],
   "CreateMonitorConfigPolicy": [
     {
       "group": "monitors",
